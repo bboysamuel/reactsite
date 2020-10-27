@@ -3,16 +3,18 @@ import './App.css';
 import Footer from './components/footer';
 import ContactForm from './components/contactForm'
 import Nav from './components/nav'
-import Slider from './components/slider'
+import ControlledCarousel from './components/carousel'
 import FeatureOne from './components/featureOne'
 import Portfolio from './components/portfolio'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
     < Nav />
-    < Slider />
+    < ControlledCarousel />
     < FeatureOne />
     < Portfolio />
     < ContactForm />
