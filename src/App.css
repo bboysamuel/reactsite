@@ -1,3 +1,11 @@
+.safe {
+  /* padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; */
+  margin: 2rem;
+  padding: 2rem;
+}
 body {
   padding-top: 56px;
 }
@@ -22,3 +30,18 @@ body {
 /* .carousel-item-temp {
   background-image: url('./mediaTwo/list-it-marketing-real-estate-sam.jpg');
 } */
+
+#featureTwo {
+  text-align: right;
+}
+#bioId {
+  margin-top: 4rem;
+}
+
+.sliderPic {
+  height: 100vh;
+}
+
+a:link {
+  color: solid black;
+}

@@ -13,41 +13,41 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel className="carouselClass" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 sliderPic"
           src="media/list-it-marketing-real-estate-sam.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Samuel McKaig</h3>
+          <p>Welcome To The Official Website</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 sliderPic"
           src="media/real_estate.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>One Billion Dollars In Real Estate & Counting...</h3>
+          <p>Cofounder of ListItMarketing.com, the platform relied on by real estate professionals to market their listings.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="media/seo.jpg"
+          className="d-block w-100 sliderPic"
+          src="media/stunt_sport_image.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Director & Content Creator</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Director and content creator of multiple entertainment projects and commercials across a diverse range of sectors from medical and tech to consumer products.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

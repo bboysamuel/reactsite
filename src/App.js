@@ -7,6 +7,7 @@ import ControlledCarousel from './components/carousel'
 import FeatureOne from './components/featureOne'
 import Portfolio from './components/portfolio'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import FeatureTwo from './components/featureTwo'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     < Nav />
     < ControlledCarousel />
     < FeatureOne />
+    {/* < FeatureTwo /> */}
     < Portfolio />
     < ContactForm />
     < Footer />
