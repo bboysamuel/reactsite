@@ -11,7 +11,7 @@ body {
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 85vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -43,5 +43,40 @@ body {
 } */
 
 a:link {
-  color: solid black;
+  color: rgb(141, 140, 140) !important;
+}
+
+a:visited {
+  color: rgb(141, 140, 140) !important;
+}
+
+/* .btn .btn-primary {
+  background-color: green;
+  color: red;
+} */
+
+.fullWidth {
+  width: 100%;
+}
+
+/* a a:visited .nav-link {
+  color: solid red;
+  background-color: green;
+} */
+
+/* * {
+  background-color: red;
+} */
+
+.mb-4 .btn {
+  background-color: rgb(189, 189, 189);
+  border-color: rgb(136, 134, 134);
+}
+
+.navbar a {
+  color: rgb(224, 224, 224) !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }

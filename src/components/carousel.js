@@ -33,8 +33,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>One Billion Dollars In Real Estate & Counting...</h3>
-          <p>Cofounder of ListItMarketing.com, the platform relied on by real estate professionals to market their listings.</p>
+          <h3>ListItMarketing.com</h3>
+          <p>Relied on by real estate professionals to market listings</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,9 +45,9 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Director & Content Creator</h3>
+          <h3>Stunt Sport</h3>
           <p>
-            Director and content creator of multiple entertainment projects and commercials across a diverse range of sectors from medical and tech to consumer products.
+            Directed by Samuel McKaig and released by Fox Action Films & Artist View Entertainment
           </p>
         </Carousel.Caption>
       </Carousel.Item>

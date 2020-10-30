@@ -10,11 +10,10 @@ const FeatureOne = (props) => {
     {/* <h2>Creator | Consultant</h2> */}
     <p>The American creator and consultant known for his work in entertainment, real estate, and marketing.</p>
     <ul>
-
-    <li>Full Stack</li>
       <li>SEO</li>
       <li>Content</li>
       <li>Marketing</li>
+      <li>Full Stack Development</li>
 
 
       {/* <li>JavaScript</li>

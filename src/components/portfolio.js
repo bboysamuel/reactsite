@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Portfolio = () => {
-  return <div className="portfolio safe">
+  return <div id="projectsTop" className="portfolio safe">
     {/* <h2>The Way Of The Future</h2> */}
 
 <div className="row">
@@ -25,7 +25,7 @@ const Portfolio = () => {
         <h4 className="card-title">
           <a href="#">INEVIFIT</a>
         </h4>
-        <p className="card-text">The <a href="https://www.inevifit.com/" >INEVIFIT</a> Smart Scale links to your phone and fitbit to help track your body metrics and fitness goals available on Amazon.com and Bed Bath & Beyond.</p>
+        <p className="card-text">The <a href="https://www.inevifit.com/" >INEVIFIT</a> Smart Scale links to your phone and fitbit to help track your body metrics and fitness goals. Available on Amazon.com and Bed Bath & Beyond.</p>
       </div>
     </div>
   </div>
@@ -35,9 +35,9 @@ const Portfolio = () => {
       <iframe width="100%" src="https://www.youtube.com/embed/GNdpCMCd_xw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div className="card-body">
         <h4 className="card-title">
-          <a href="#">Blue Triangle</a>
+          <a href="#">Blue T</a>
         </h4>
-        <p className="card-text"><a href="https://bluetriangle.com"> Blue Triangle Technologies</a>: Solutions to monitor and analyze your end-user experience with your web application.</p>
+        <p className="card-text"><a href="https://bluetriangle.com"> Blue T</a>: Solutions to monitor and analyze your end-user experience with your web application.</p>
       </div>
     </div>
   </div>
@@ -59,9 +59,9 @@ const Portfolio = () => {
       <iframe width="100%" src="https://www.youtube.com/embed/GtpUesWmJkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="card-body">
         <h4 class="card-title">
-          <a href="#">Entertainment</a>
+          <a href="#">Commercial & Entertainment</a>
         </h4>
-        <p class="card-text">Directed, written, & starred in multiple commercial and entertainment projects including Stunt Sport, Trickstar, and Gatorade's Mission G campaign.<a href="https://www.imdb.com/name/nm6350143/"> IMDB.com</a></p>
+        <p class="card-text">Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more<a href="https://www.imdb.com/name/nm6350143/"> IMDB.com</a></p>
       </div>
     </div>
   </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
         <h4 class="card-title">
           <a href="#">Partners In Housing</a>
         </h4>
-        <p className="card-text">Serving on the Board Of Directors for <a href="https://www.partnersinhousingsolutions.org/">  Partners In Housing</a>: A non-profit focused on finding homes for homeless families. </p>
+        <p className="card-text"><a href="https://www.partnersinhousingsolutions.org/">  Partners In Housing</a>: A non-profit focused on finding homes for homeless families. </p>
       </div>
     </div>
   </div>
@@ -87,23 +87,27 @@ const Portfolio = () => {
         </li>
 
       <li>
-      Emegear - Emergency Medical Devices Sold World Wide
+      Emegear - Medical product
 
           </li>
       <li>
-        <a href="https://SBTechList.com"> SBTechList.com</a>: Santa Barbara Tech List Directory
+        <a href="https://SBTechList.com"> SBTechList.com</a>: Tech List Directory
 
           </li>
       <li>
       <a href="https://engelventures.com/">Engel Ventures</a> - Venture Capital
 
           </li>
-      <li>
+      {/* <li>
        SantaBarbara Venture Partners - Venture Capital
 
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
       <a href="https://idriveglobal.com">Idrive </a>
+
+          </li> */}
+          <li>
+      <a href="https://roadgamers.com">Road Gamers Texas </a>
 
           </li>
       <li>
