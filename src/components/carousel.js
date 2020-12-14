@@ -14,17 +14,22 @@ function ControlledCarousel() {
 
   return (
     <Carousel className="carouselClass" activeIndex={index} onSelect={handleSelect}>
+
       <Carousel.Item>
         <img
           className="d-block w-100 sliderPic"
           src="media/list-it-marketing-real-estate-sam.jpg"
           alt="First slide"
         />
+
         <Carousel.Caption>
           <h3>Samuel McKaig</h3>
           <p>Welcome To The Official Website</p>
         </Carousel.Caption>
+
       </Carousel.Item>
+
+
       <Carousel.Item>
         <img
           className="d-block w-100 sliderPic"

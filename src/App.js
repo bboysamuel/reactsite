@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
     < Nav />
     < ControlledCarousel />
     < FeatureOne />
@@ -23,7 +23,7 @@ function App() {
     < Footer />
 
 
-      </header>
+      {/* </header> */}
     </div>
   );
 }
