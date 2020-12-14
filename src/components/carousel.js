@@ -13,7 +13,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel className="carouselClass" activeIndex={index} onSelect={handleSelect}>
+    <Carousel fade={true} className="carouselClass" activeIndex={index} onSelect={handleSelect}>
 
       <Carousel.Item>
         <img
@@ -23,8 +23,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Samuel McKaig</h3>
-          <p>Welcome To The Official Website</p>
+          {/* <h3>Samuel McKaig</h3>
+          <p>Welcome To The Official Website</p> */}
         </Carousel.Caption>
 
       </Carousel.Item>
@@ -38,8 +38,8 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>ListItMarketing.com</h3>
-          <p>Relied on by real estate professionals to market listings</p>
+          {/* <h3>ListItMarketing.com</h3>
+          <p>Relied on by real estate professionals to market listings</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -51,9 +51,9 @@ function ControlledCarousel() {
 
         <Carousel.Caption>
           <h3>Stunt Sport</h3>
-          <p>
+          {/* <p>
             Directed by Samuel McKaig and released by Fox Action Films & Artist View Entertainment
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

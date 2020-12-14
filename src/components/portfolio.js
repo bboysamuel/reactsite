@@ -78,7 +78,7 @@ const Portfolio = () => {
     </div>
   </div>
   <div>
-    <h2> More...</h2>
+    {/* <h2> More...</h2>
     <p>
       <ul>
         <li>
@@ -97,7 +97,7 @@ const Portfolio = () => {
       <li>
       <a href="https://engelventures.com/">Engel Ventures</a> - Venture Capital
 
-          </li>
+          </li> */}
       {/* <li>
        SantaBarbara Venture Partners - Venture Capital
 
@@ -106,7 +106,7 @@ const Portfolio = () => {
       <a href="https://idriveglobal.com">Idrive </a>
 
           </li> */}
-          <li>
+          {/* <li>
       <a href="https://roadgamers.com">Road Gamers Texas </a>
 
           </li>
@@ -115,7 +115,7 @@ const Portfolio = () => {
 
           </li>
       </ul>
-    </p>
+    </p> */}
   </div>
 </div>
   </div>

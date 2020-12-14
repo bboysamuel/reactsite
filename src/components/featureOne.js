@@ -1,4 +1,5 @@
 import React from 'react';
+import QuotesCarousel from "./QuotesCarousel"
 
 
 const FeatureOne = (props) => {
@@ -10,10 +11,24 @@ const FeatureOne = (props) => {
     {/* <h2>Creator | Consultant</h2> */}
     <p>The American creator and consultant known for his work in entertainment, real estate, and marketing.</p>
     <ul>
-      <li>SEO</li>
+      <QuotesCarousel />
+      {/* <li>SEO</li>
       <li>Content</li>
       <li>Marketing</li>
-      <li>Full Stack Development</li>
+      <li>Full Stack Development</li> */}
+      {/* <li>
+      <p>
+        <i><strong> "Sam is a marketing genius" </strong> - <a href="https://en.wikipedia.org/wiki/Neal_Israel"> Neal Isreal </a> (Writer/Director/Producer "Finding Neverland", "Police Academy", "Surf Ninjas", "Bachelor Party")</i> </p>
+
+      </li>
+      <li>
+      <p>
+        <i><strong> "Artists of a new and exiting kind" </strong> - <a href="https://NewsPress.com"> NewsPress.com </a> (Entertainment Section)</i> </p>
+      </li>
+      <li>
+      <p>
+        <i><strong> "truly a top-tier talent." </strong> - <a href="https://en.wikipedia.org/wiki/Don_Murray_(actor)"> Don Murray </a> (Oscar Nominated Actor / Producer "Bus Stop", "Twin Peaks", "Advise and Consent")</i> </p>
+      </li> */}
 
 
       {/* <li>JavaScript</li>
@@ -29,8 +44,8 @@ const FeatureOne = (props) => {
       </li> */}
     </ul>
 
-    <p>
-        <i><strong> "Sam is a marketing genius" </strong> - <a href="https://en.wikipedia.org/wiki/Neal_Israel"> Neal Isreal </a> (Writer/Director/Producer "Finding Neverland, Police Academy, Surf Ninjas, Bachelor Party")</i> </p>
+    {/* <p>
+        <i><strong> "Sam is a marketing genius" </strong> - <a href="https://en.wikipedia.org/wiki/Neal_Israel"> Neal Isreal </a> (Writer/Director/Producer "Finding Neverland, Police Academy, Surf Ninjas, Bachelor Party")</i> </p> */}
   </div>
   <div class="col-lg-6">
     <img class="profileImage" src="media/sam-linked-in-profile.jpeg" alt=""></img>

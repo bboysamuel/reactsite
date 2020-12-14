@@ -1,0 +1,17 @@
+#textSlide .quotesCarouselClass p {
+  color: black;
+}
+
+#textSlide .quotesCarouselClass h3 {
+  color: black;
+}
+
+#textSlide .quotesCarouselClass {
+  display: block;
+  padding: 40px;
+  max-height: 200px;
+  max-width: 400px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
