@@ -309,7 +309,7 @@ const Portfolio = () => {
       desc: `A non-profit focused on finding homes for homeless families.` ,
       imageURL: null ,
       link: 'https://SantaBarbaraMontecito.com' ,
-      vidEmbed: '  <iframe width="100%" src="https://www.youtube.com/embed/cwT4BAZa0HE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
+      vidEmbed: `https://www.youtube.com/embed/cwT4BAZa0HE` ,
       vidURL: null,
     },
 
@@ -327,19 +327,16 @@ const Portfolio = () => {
   // loop through all projects. pass in the id from the click below. put it in a new component function
 }
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} width="720px" height="460px">
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading {allProjects[1].name} </Modal.Title>
+          <Modal.Title>{allProjects[5].name} </Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <Modal.Body>
+        <iframe width="100%" src={allProjects[5].vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <p> this is a really cool project</p>
+        </Modal.Footer> */}
       </Modal>
 
 
