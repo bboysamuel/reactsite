@@ -3,21 +3,23 @@ import React, {useState}  from 'react'
 import ReactDOM from 'react-dom'
 import ModalVideo from 'react-modal-video'
 import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button"
 
-const ProjectOne = () => {
-  const [show, setShow] = useState(true);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+// const handleModal = () => {
+//   const [show, setShow] = useState("");
+//   const handleClose = () => setShow(false);
+//   const handleShow = () => setShow(true);
 
-  return     (<Modal show={show} onHide={handleClose}>
-  <Modal.Header closeButton>
-    <Modal.Title>Video Title One</Modal.Title>
-  </Modal.Header>
-  <Modal.Body>
-  <iframe src="https://www.youtube.com/embed/7-Fe9bzDVAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</Modal.Body>
-</Modal>)
-}
+//   return     (<Modal show={show} onHide={handleClose}>
+//   <Modal.Header closeButton>
+//     <Modal.Title>Video Title One</Modal.Title>
+//   </Modal.Header>
+//   <Modal.Body>
+//   <iframe src="https://www.youtube.com/embed/7-Fe9bzDVAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+// </Modal.Body>
+// </Modal>)
+// }
+// handleModal()
 
 // const ProjectTwo = () => {
 //   const [show, setShow] = useState(true);
@@ -232,6 +234,23 @@ const ProjectOne = () => {
 
 
 const Portfolio = () => {
+  // const [show, setShow] = useState(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
+  // const handleModal = async (id) => {
+  //   console.log('clicked handleModal')
+
+  //   return     (<Modal show={show} onHide={handleClose}>
+  //   <Modal.Header closeButton>
+  //     <Modal.Title>Video Title One</Modal.Title>
+  //   </Modal.Header>
+  //   <Modal.Body>
+  //   {/* <iframe src="https://www.youtube.com/embed/7-Fe9bzDVAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+  // </Modal.Body>
+  // </Modal>)
+  // }
+
 
   const allProjects = [
     {
@@ -278,9 +297,9 @@ const Portfolio = () => {
       id: 5 ,
       name: 'Commercial & Entertainment' ,
       desc: `Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more<a href="https://www.imdb.com/name/nm6350143/"> IMDB.com` ,
-      imageURL: null ,
+      imageURL: `media/inevifit.jpg` ,
       link: 'https://SantaBarbaraMontecito.com' ,
-      vidEmbed: '    <iframe width="100%" src="https://www.youtube.com/embed/GtpUesWmJkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
+      vidEmbed: `    <iframe width="100%" src="https://www.youtube.com/embed/GtpUesWmJkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `,
       vidURL: null,
     },
 
@@ -296,7 +315,35 @@ const Portfolio = () => {
 
   ]
 
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (<>
+
+{console.log(allProjects)}
+{
+  // loop through all projects. pass in the id from the click below. put it in a new component function
+}
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading {allProjects[1].name} </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+
+
 
   <div id="projectsTop" className="portfolio safe">
     <div className="row">
@@ -304,9 +351,15 @@ const Portfolio = () => {
       {allProjects && allProjects.map((project) => {
         console.log('project', project.name)
         return( <>
-          <div className="col-lg-4 col-sm-6 portfolio-item">
+          <div key={project.id} className="col-lg-4 col-sm-6 portfolio-item">
             <div className="card h-100">
-              <div>{project.imageURL}</div>
+            {/* {project.vidEmbed} */}
+             {/* <a href="#"> */}
+               <img onClick={handleShow} class="imgClick card-img-top" src={project.imageURL} alt=""></img>
+               {/* </a> */}
+               {/* <Button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </Button> */}
               <div className="card-body">
                 <h4 className="card-title"> <a href="{link}">{project.name}</a> </h4>
                 <p className="card-text"> {project.desc} </p>
@@ -325,8 +378,8 @@ const Portfolio = () => {
   </>)
 
 
-
 }
+
 
 
 export default Portfolio
