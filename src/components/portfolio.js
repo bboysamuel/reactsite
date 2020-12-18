@@ -333,6 +333,12 @@ const Portfolio = () => {
         </Modal.Header>
         <Modal.Body>
         <iframe width="100%" src={allProjects[5].vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        {/* {        allProjects[5].vidEmbed ?
+<iframe width="100%" src={allProjects[5].vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:
+<img class="card-img-top" src={allProjects[5]imageURL} alt=""></img>
+}  */}
         </Modal.Body>
         {/* <Modal.Footer>
           <p> this is a really cool project</p>
