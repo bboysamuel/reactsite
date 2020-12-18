@@ -10,7 +10,7 @@ const HomeHero = () => {
     <div className="hero-image">
   <div className="hero-text">
     <h2>Samuel McKaig</h2>
-    <h4>The Official Website Of An Unofficial Genius</h4>
+    <h4>The Official Website For The Unofficial Genius</h4>
     {/* <button onClick="window.location.href='/routines'">Get Started</button> */}
   </div>
 </div>

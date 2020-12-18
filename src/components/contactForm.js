@@ -10,7 +10,7 @@ const ContactForm = (props) => {
 
     <p className="text-center w-responsive mx-auto mb-5">Got questions? Sam's got answers. They may not be correct answers but he tries. </p>
 
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <form id="contact-form" name="contact-form" action="mailto:info@samuelmckaig.com" method="POST" enctype="multipart/form-data">
 
 
           <div className="row">
@@ -57,6 +57,7 @@ const ContactForm = (props) => {
 
               </div>
           </div>
+          {/* <input type="submit" value="Submit"></input> */}
 
       </form>
 
