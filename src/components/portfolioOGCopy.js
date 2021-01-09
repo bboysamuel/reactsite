@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom'
 import ModalVideo from 'react-modal-video'
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button"
-import data from "../data/projects.json"
 // import {MediaModule} from "./MediaModule"
 
 // const handleModal = () => {
@@ -254,70 +253,68 @@ const Portfolio = () => {
   // }
 
 
-  // const allProjects = [
-  //   {
-  //     id: 1 ,
-  //     name: 'ListItMarketing.com' ,
-  //     desc: "Marketing services & tech tools for the professional real estate industry." ,
-  //     imageURL: null ,
-  //     link: 'https://listitmarketing.com' ,
-  //     vidEmbed: '<iframe width="100%" src="https://www.youtube.com/embed/y4UES3H5gTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
-  //     vidURL: null,
-  //   },
+  const allProjects = [
+    {
+      id: 1 ,
+      name: 'ListItMarketing.com' ,
+      desc: "Marketing services & tech tools for the professional real estate industry." ,
+      imageURL: null ,
+      link: 'https://listitmarketing.com' ,
+      vidEmbed: '<iframe width="100%" src="https://www.youtube.com/embed/y4UES3H5gTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
+      vidURL: null,
+    },
 
-  //   {
-  //     id: 2 ,
-  //     name: 'Book' ,
-  //     desc: "The Book on marketing real estate" ,
-  //     imageURL: null ,
-  //     link: 'https://amazon.com' ,
-  //     vidEmbed: null ,
-  //     vidURL: null,
-  //   },
+    {
+      id: 2 ,
+      name: 'Book' ,
+      desc: "The Book on marketing real estate" ,
+      imageURL: null ,
+      link: 'https://amazon.com' ,
+      vidEmbed: null ,
+      vidURL: null,
+    },
 
-  //   {
-  //     id: 3 ,
-  //     name: 'INEVIFIT' ,
-  //     desc: "Smart Scale links to your phone and fitbit to help track your body metrics and fitness goals. Available on Amazon.com and Bed Bath & Beyond." ,
-  //     imageURL: null ,
-  //     link: 'https://amazon.com' ,
-  //     vidEmbed: ' <iframe width="100%" src="https://www.youtube.com/embed/GNdpCMCd_xw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
-  //     vidURL: null,
-  //   },
+    {
+      id: 3 ,
+      name: 'INEVIFIT' ,
+      desc: "Smart Scale links to your phone and fitbit to help track your body metrics and fitness goals. Available on Amazon.com and Bed Bath & Beyond." ,
+      imageURL: null ,
+      link: 'https://amazon.com' ,
+      vidEmbed: ' <iframe width="100%" src="https://www.youtube.com/embed/GNdpCMCd_xw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
+      vidURL: null,
+    },
 
-  //   {
-  //     id: 4 ,
-  //     name: 'KW Luxury Homes' ,
-  //     desc: " Award Winning Santa Barbara & Montecito Real Estate Team at The World’s Largest Real Estate Agency" ,
-  //     imageURL: null ,
-  //     link: 'https://SantaBarbaraMontecito.com' ,
-  //     vidEmbed: '     <iframe width="100%" src="https://www.youtube.com/embed/Nlz1leCkU-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
-  //     vidURL: null,
-  //   },
+    {
+      id: 4 ,
+      name: 'KW Luxury Homes' ,
+      desc: " Award Winning Santa Barbara & Montecito Real Estate Team at The World’s Largest Real Estate Agency" ,
+      imageURL: null ,
+      link: 'https://SantaBarbaraMontecito.com' ,
+      vidEmbed: '     <iframe width="100%" src="https://www.youtube.com/embed/Nlz1leCkU-o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
+      vidURL: null,
+    },
 
-  //   {
-  //     id: 5 ,
-  //     name: 'Commercial & Entertainment' ,
-  //     desc: `Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more<a href="https://www.imdb.com/name/nm6350143/"> IMDB.com` ,
-  //     imageURL: `media/inevifit.jpg` ,
-  //     link: 'https://SantaBarbaraMontecito.com' ,
-  //     vidEmbed: "https://www.youtube.com/embed/GtpUesWmJkI",
-  //     vidURL: null,
-  //   },
+    {
+      id: 5 ,
+      name: 'Commercial & Entertainment' ,
+      desc: `Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more<a href="https://www.imdb.com/name/nm6350143/"> IMDB.com` ,
+      imageURL: `media/inevifit.jpg` ,
+      link: 'https://SantaBarbaraMontecito.com' ,
+      vidEmbed: `    <iframe width="100%" src="https://www.youtube.com/embed/GtpUesWmJkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `,
+      vidURL: null,
+    },
 
-  //   {
-  //     id: 6 ,
-  //     name: 'Partners In Housing' ,
-  //     desc: `A non-profit focused on finding homes for homeless families.` ,
-  //     imageURL: null ,
-  //     link: 'https://SantaBarbaraMontecito.com' ,
-  //     vidEmbed: `https://www.youtube.com/embed/cwT4BAZa0HE` ,
-  //     vidURL: null,
-  //   },
+    {
+      id: 6 ,
+      name: 'Partners In Housing' ,
+      desc: `A non-profit focused on finding homes for homeless families.` ,
+      imageURL: null ,
+      link: 'https://SantaBarbaraMontecito.com' ,
+      vidEmbed: `https://www.youtube.com/embed/cwT4BAZa0HE` ,
+      vidURL: null,
+    },
 
-  // ]
-
-  const allProjects = data
+  ]
 
   const [show, setShow] = useState(false);
 
@@ -362,8 +359,7 @@ const Portfolio = () => {
         return( <>
           <div key={project.id} className="col-lg-4 col-sm-6 portfolio-item">
             <div className="card h-100">
-            {/* <div>  <iframe width="100%" src={project.vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> */}
-
+            {/* {project.vidEmbed} */}
              {/* <a href="#"> */}
                <img onClick={handleShow} class="imgClick card-img-top" src={project.imageURL} alt=""></img>
                {/* </a> */}
@@ -392,4 +388,4 @@ const Portfolio = () => {
 
 
 
-export default Portfolio
+// export default Portfolio
