@@ -9,6 +9,22 @@ import MediaModule from "./MediaModule"
 
 
 const Portfolio = () => {
+  // const [show, setShow] = useState(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
+  // const handleModal = async (id) => {
+  //   console.log('clicked handleModal')
+
+  //   return     (<Modal show={show} onHide={handleClose}>
+  //   <Modal.Header closeButton>
+  //     <Modal.Title>Video Title One</Modal.Title>
+  //   </Modal.Header>
+  //   <Modal.Body>
+  //   {/* <iframe src="https://www.youtube.com/embed/7-Fe9bzDVAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+  // </Modal.Body>
+  // </Modal>)
+  // }
 
 
 
@@ -25,6 +41,23 @@ const Portfolio = () => {
 
   return (<>
 
+{console.log(allProjects)}
+{
+  // loop through all projects. pass in the id from the click below. put it in a new component function
+}
+
+      {/* <Modal show={show} onHide={handleClose} width="720px" height="460px">
+        <Modal.Header closeButton>
+          <Modal.Title>{allProjects[5].name} </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        <iframe width="100%" src={allProjects[5].vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </Modal.Body>
+        <Modal.Footer>
+          <p> this is a really cool project</p>
+        </Modal.Footer>
+      </Modal> */}
 
         {/* <MediaModule /> */}
 
@@ -48,7 +81,7 @@ const Portfolio = () => {
               setShow={setShow}
               /> */}
 
-              {/* <Button variant="primary" onClick={ (event) => {
+              <Button variant="primary" onClick={ (event) => {
                 console.log("IDDD", project.id)
                  handleShow()
               }
@@ -56,8 +89,7 @@ const Portfolio = () => {
                 }>
               Launch demo modal
               {project.id}
-            </Button> */}
-
+            </Button>
         <div>
             <Modal show={show} onHide={handleClose} width="720px" height="460px">
             <Modal.Header closeButton>
@@ -98,4 +130,5 @@ const Portfolio = () => {
 
 
 
-export default Portfolio
+// NOT USED #BEST version. but couldnt get it to work
+// export default Portfolio

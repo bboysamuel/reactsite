@@ -1,0 +1,34 @@
+* {
+  border: 1px solid black;
+}
+#logoSlide {
+  width: 100%;
+  max-height: 200px;
+}
+.smallLogoPic {
+  width: 100px;
+  max-height: 100px;
+}
+
+.smallCaro {
+  max-height: 200px;
+  max-width: 400px;
+}
+
+#logoSlide .logoCarouselClass p {
+  color: black;
+}
+
+#logoSlide .logoCarouselClass h3 {
+  color: black;
+}
+
+/* #logoSlide .logoCarouselClass {
+  display: block;
+  padding: 40px;
+  max-height: 200px;
+  max-width: 400px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+} */

@@ -3,8 +3,8 @@
   {
     "id": 1 ,
     "name": "ListItMarketing.com" ,
-    "desc": "Marketing services & tech tools for the professional real estate industry." ,
-    "imageURL": null ,
+    "desc": "Marketing for the professional real estate industry." ,
+    "imageURL": "media/inevifit.jpg"  ,
     "link": "https://listitmarketing.com" ,
     "vidEmbed": "https://www.youtube.com/embed/y4UES3H5gTA" ,
     "vidURL": null
@@ -12,9 +12,9 @@
 
   {
     "id": 2,
-    "name": "Book" ,
-    "desc": "The Book on marketing real estate" ,
-    "imageURL": null ,
+    "name": "The Intelligent Marketer " ,
+    "desc": "The book on marketing real estate in the digital age." ,
+    "imageURL": "media/inevifit.jpg"  ,
     "link": "https://amazon.com" ,
     "vidEmbed": null ,
     "vidURL": null
@@ -22,9 +22,9 @@
 
   {
     "id": 3 ,
-    "name": "INEVIFIT" ,
-    "desc": "Smart Scale links to your phone and fitbit to help track your body metrics and fitness goals. Available on Amazon.com and Bed Bath & Beyond." ,
-    "imageURL": null ,
+    "name": "Inevifit" ,
+    "desc": "A Smart Scale that links to your phone and Fitbit available on Amazon.com and Bed Bath & Beyond." ,
+    "imageURL": "media/inevifit.jpg"  ,
     "link": "https://amazon.com" ,
     "vidEmbed": "<iframe width='100%' src='https://www.youtube.com/embed/GNdpCMCd_xw' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>" ,
     "vidURL": null
@@ -33,8 +33,8 @@
   {
     "id": 4 ,
     "name": "'KW Luxury Homes'" ,
-    "desc": " Award Winning Santa Barbara & Montecito Real Estate Team at The World’s Largest Real Estate Agency" ,
-    "imageURL": null ,
+    "desc": "The Award-Winning Real Estate Team at The World's Largest Real Estate Agency." ,
+    "imageURL": "media/inevifit.jpg"  ,
     "link": "'https://SantaBarbaraMontecito.com'" ,
     "vidEmbed": "https://www.youtube.com/embed/Nlz1leCkU-o" ,
     "vidURL": null
@@ -43,7 +43,7 @@
   {
     "id": 5 ,
     "name": "'Commercial & Entertainment'" ,
-    "desc": "`Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more<a href='https://www.imdb.com/name/nm6350143/'> IMDB.com`" ,
+    "desc": "Stunt Sport, Trickstar Reality Show, Freakdance, Scary Movie 5, Gatorade's Mission G, Dark Games, Vans, Redbull, Simple Shoes, and more." ,
     "imageURL": "media/inevifit.jpg" ,
     "link": "'https://SantaBarbaraMontecito.com' ",
     "vidEmbed": "https://www.youtube.com/embed/GtpUesWmJkI",
@@ -53,8 +53,8 @@
   {
     "id": 6 ,
     "name": "Partners In Housing" ,
-    "desc": "A non-profit focused on finding homes for homeless families." ,
-    "imageURL": null ,
+    "desc": "The California non-profit that finds homes for homeless families." ,
+    "imageURL": "media/inevifit.jpg"  ,
     "link": "https://SantaBarbaraMontecito.com" ,
     "vidEmbed": "https://www.youtube.com/embed/cwT4BAZa0HE" ,
     "vidURL": null

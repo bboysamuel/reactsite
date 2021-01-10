@@ -2,11 +2,11 @@
 import React, {render, useState} from 'react';
 
 import Carousel from 'react-bootstrap/Carousel'
-import  './QuotesCarousel.css'
+import  './LogoCarousel.css'
 
 
 
-function QuotesCarousel() {
+function LogoCarousel() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -14,27 +14,33 @@ function QuotesCarousel() {
   };
 
   return ( <>
-    <div id="textSlide">
-    <Carousel fade={true} className="quotesCarouselClass" activeIndex={index} onSelect={handleSelect}>
+    <div id="logoSlide">
+    <Carousel fade={true} className="logoCarouselClass" activeIndex={index} onSelect={handleSelect}>
 
-      <Carousel.Item className="smallCaro">
+      <Carousel.Item className="smallLogoCaro">
 
+      <img
+          className="smallLogoPic"
+          src="media/list-it-marketing-real-estate-sam.jpg"
+          alt="First slide"
+        />
 
-      <p>
-        <i><strong> "Sam is a marketing genius" </strong> - <a href="https://en.wikipedia.org/wiki/Neal_Israel"> Neal Isreal </a> (Writer/Director/Producer "Finding Neverland", "Police Academy", "Surf Ninjas", "Bachelor Party")</i> </p>
-
+        <Carousel.Caption>
+          <h3>Samuel McKaig</h3>
+          <p>Welcome To The Official Website</p>
+        </Carousel.Caption>
 
       </Carousel.Item>
 
 
-      <Carousel.Item className="smallCaro">
+      <Carousel.Item className="smallLogoCaro">
 
 
       <p>
         <i><strong> "Artists of a new and exiting kind" </strong> - <a href="https://NewsPress.com"> NewsPress.com </a> (Entertainment Section)</i> </p>
 
       </Carousel.Item>
-      <Carousel.Item className="smallCaro">
+      <Carousel.Item className="smallLogoCaro">
 
 
 
@@ -53,7 +59,7 @@ function QuotesCarousel() {
 
 
 
-export default QuotesCarousel;
+export default LogoCarousel;
 
 
 

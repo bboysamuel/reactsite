@@ -6,11 +6,11 @@ import {
 } from 'react-router-dom'
 
 const HomeHero = () => {
-  return <div>
+  return <div id="home" className="homeHeroDiv">
     <div className="hero-image">
-  <div className="hero-text">
-    <h2>Samuel McKaig</h2>
-    <h4>The Official Website For The Unofficial Genius</h4>
+    <div className="hero-text">
+    <h1>Samuel McKaig</h1>
+    <h3>The Official Website For The Unofficial Genius</h3>
     {/* <button onClick="window.location.href='/routines'">Get Started</button> */}
   </div>
 </div>

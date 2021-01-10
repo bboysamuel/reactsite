@@ -6,7 +6,7 @@ const FeatureOne = (props) => {
 
   return <div class="row safe" id="aboutTop">
   <div id="bioId" class="col-lg-6">
-    <h1 class="my-4">Samuel McKaig</h1>
+    <p class="my-4 bioTitle">Samuel McKaig</p>
 
     {/* <h2>Creator | Consultant</h2> */}
     <p>The American creator and consultant known for his work in entertainment, real estate, and marketing.</p>

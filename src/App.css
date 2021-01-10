@@ -3,12 +3,12 @@
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem; */
-  margin: 2rem;
+  /* margin: 2rem; */
   padding: 2rem;
 }
-body {
+/* body {
   padding-top: 56px;
-}
+} */
 
 .carousel-item {
   height: 85vh;
@@ -35,7 +35,7 @@ body {
   text-align: right;
 }
 #bioId {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 /*
 .sliderPic {
@@ -79,4 +79,13 @@ a:visited {
 
 html {
   scroll-behavior: smooth;
+}
+
+.bioTitle {
+  font-size: 4rem;
+}
+
+#bioId {
+  text-align: center;
+  /* font-family: Bold; */
 }
