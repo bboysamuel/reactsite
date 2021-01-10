@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from './components/footer';
 import ContactForm from './components/contactForm'
 import NavTop from './components/nav'
@@ -12,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeHero from './components/HomeHero'
 import MediaModule from './components/MediaModule'
 import LogoCarousel from "./components/LogoCarousel"
+import LogoImages from "./components/LogoImages"
 
 //NOTES do some cool stuff. animations. SSR. email form. banner of skills and programs. lazy load more projects perhaps. sticky nav. Bigger bolder titles/text.
 
@@ -24,7 +26,8 @@ function App() {
     < NavTop />
     {/* < ControlledCarousel /> */}
     <HomeHero />
-    <LogoCarousel />
+    <LogoImages />
+    {/* <LogoCarousel /> */}
     < FeatureOne />
     {/* < FeatureTwo /> */}
     {/* <MediaModule /> */}
