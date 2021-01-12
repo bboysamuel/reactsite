@@ -4,7 +4,7 @@
     "id": 1 ,
     "name": "ListItMarketing.com" ,
     "desc": "Marketing for the professional real estate industry." ,
-    "imageURL": "media/inevifit.jpg"  ,
+    "imageURL": "media/real-estate-19x9.jpg"  ,
     "link": "https://listitmarketing.com" ,
     "vidEmbed": "https://www.youtube.com/embed/y4UES3H5gTA" ,
     "vidURL": null
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "The Intelligent Marketer " ,
     "desc": "The book on marketing real estate in the digital age." ,
-    "imageURL": "media/inevifit.jpg"  ,
+    "imageURL": "media/real-estate-19x9.jpg"  ,
     "link": "https://amazon.com" ,
     "vidEmbed": null ,
     "vidURL": null
@@ -26,7 +26,7 @@
     "desc": "A Smart Scale that links to your phone and Fitbit available on Amazon.com and Bed Bath & Beyond." ,
     "imageURL": "media/inevifit.jpg"  ,
     "link": "https://amazon.com" ,
-    "vidEmbed": "<iframe width='100%' src='https://www.youtube.com/embed/GNdpCMCd_xw' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>" ,
+    "vidEmbed": "https://www.youtube.com/embed/GNdpCMCd_xw" ,
     "vidURL": null
   },
 

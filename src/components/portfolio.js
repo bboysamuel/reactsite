@@ -39,7 +39,12 @@ const Portfolio = () => {
         return( <>
           <div key={projectId} className="col-lg-4 col-sm-6 portfolio-item">
             <div className="card h-100">
+               { project.vidEmbed ?
+                           <iframe width="100%" src={project.vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           :
                <img onClick={handleShow} class="imgClick card-img-top" src={project.imageURL} alt=""></img>
+
+                }
                <div>
 
             {/* <MediaModule

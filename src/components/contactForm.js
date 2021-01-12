@@ -1,10 +1,16 @@
 // import React, {useEffect, useState } from 'react'
 
-import React from 'react';
+import React, {useState} from 'react';
 
 
 const ContactForm = (props) => {
-  return <section className="mb-4 safe" id="contactTop">
+    const {name, setName} = useState('')
+    const {email, setEmail} = useState('')
+    const {subject, setSubject} = useState('')
+    const {message, setMessage} = useState('')
+
+  return (<>
+  <section className="mb-4 safe" id="contactTop">
 
     <h2 className="h1-responsive font-weight-bold text-center my-4">Contact</h2>
 
@@ -24,12 +30,15 @@ const ContactForm = (props) => {
               </div>
 
 
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                   <div className="md-form mb-0">
-                      <input type="text" id="email" name="email" className="form-control"></input>
+                      <input onChange={ (event) => {
+                          event.preventDefault()
+                          this.target.value
+                      }} type="text" id="email" name="email" className="form-control"></input>
                       <label for="email" className="">Your email</label>
                   </div>
-              </div>
+              </div> */}
 
 
           </div>
@@ -59,18 +68,17 @@ const ContactForm = (props) => {
           </div>
           {/* <input type="submit" value="Submit"></input> */}
 
-      </form>
-
       <div className="text-center text-md-left">
-          <a className="btn btn-primary" >Send</a>
+          <button type="submit" className="btn btn-primary" >Send</button>
       </div>
       <div className="status"></div>
-
-
+      </form>
 
     </section>
 
 
+
+</>)
 }
 
 export default ContactForm;

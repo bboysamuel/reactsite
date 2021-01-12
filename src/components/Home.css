@@ -67,3 +67,15 @@ ul {
 .hero-text {
   align-self: bottom;
 }
+
+.logoImg {
+  border: none;
+}
+
+.centerWrap {
+  text-align: center;
+}
+
+.centerWrap .colItem {
+  padding: 0.5rem;
+}

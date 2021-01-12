@@ -14,6 +14,11 @@ import HomeHero from './components/HomeHero'
 import MediaModule from './components/MediaModule'
 import LogoCarousel from "./components/LogoCarousel"
 import LogoImages from "./components/LogoImages"
+import SocialContacts from "./components/SocialContacts"
+import ContactReact from "./components/ContactReact"
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 //NOTES do some cool stuff. animations. SSR. email form. banner of skills and programs. lazy load more projects perhaps. sticky nav. Bigger bolder titles/text.
 
@@ -33,7 +38,9 @@ function App() {
     {/* <MediaModule /> */}
 
     < Portfolio />
-    < ContactForm />
+    <ContactReact />
+    {/* < ContactForm /> */}
+    {/* < SocialContacts /> */}
     < Footer />
 
 

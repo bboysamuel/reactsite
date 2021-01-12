@@ -25,6 +25,22 @@
   },
 
   {
+    "id": 2,
+    "name": "HTML",
+    "desc": "Javascript programming language",
+    "link": null,
+    "imageURL": null
+  },
+
+  {
+    "id": 2,
+    "name": "CSS",
+    "desc": "Javascript programming language",
+    "link": null,
+    "imageURL": null
+  },
+
+  {
     "id": 3,
     "name": "Full-stack",
     "desc": "Javascript programming language",
