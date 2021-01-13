@@ -11,9 +11,18 @@ const HomeHero = () => {
     <div className="hero-text">
     <h1>Samuel McKaig</h1>
     <h3>The Official Website For The Unofficial Genius</h3>
+    </div>
+    </div>
+
+    {/* NOTE typewritter effect */}
+    {/* <div className="typewriter">
+<p> "If (!bot)
+Welcome "
+</p>
+    </div> */}
     {/* <button onClick="window.location.href='/routines'">Get Started</button> */}
-  </div>
-</div>
+
+
 </div>
 }
 

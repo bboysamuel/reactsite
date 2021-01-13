@@ -16,7 +16,7 @@ const ContactForm = (props) => {
 
     <p className="text-center w-responsive mx-auto mb-5">Got questions? Great, Sam's got answers. They may not be correct answers, but he tries. </p>
 
-        <form id="contact-form" name="contact-form" action="mailto:info@samuelmckaig.com" method="POST" enctype="multipart/form-data">
+        {/* <form id="contact-form" name="contact-form" action="mailto:info@samuelmckaig.com" method="POST" enctype="multipart/form-data">
 
 
           <div className="row">
@@ -27,7 +27,7 @@ const ContactForm = (props) => {
                       <input type="text" id="name" name="name" className="form-control"></input>
                       <label for="name" className="">Your name</label>
                   </div>
-              </div>
+              </div> */}
 
 
               {/* <div className="col-md-6">
@@ -41,7 +41,7 @@ const ContactForm = (props) => {
               </div> */}
 
 
-          </div>
+          {/* </div>
 
           <div className="row">
               <div className="col-md-12">
@@ -50,11 +50,11 @@ const ContactForm = (props) => {
                       <label for="subject" className="">Subject</label>
                   </div>
               </div>
-          </div>
+          </div> */}
 
 
 
-          <div className="row">
+          {/* <div className="row">
 
 
               <div className="col-md-12">
@@ -65,14 +65,14 @@ const ContactForm = (props) => {
                   </div>
 
               </div>
-          </div>
+          </div> */}
           {/* <input type="submit" value="Submit"></input> */}
 
-      <div className="text-center text-md-left">
+      {/* <div className="text-center text-md-left">
           <button type="submit" className="btn btn-primary" >Send</button>
       </div>
       <div className="status"></div>
-      </form>
+      </form> */}
 
     </section>
 

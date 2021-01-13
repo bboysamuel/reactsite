@@ -37,33 +37,37 @@ const SocialContacts = () => {
   <Container style={{color: "white"}} >
   <Row>
 <Col>
-    <FaFacebookSquare onClick={() => {
+    <FaFacebookSquare className="socialLink" onClick={() => {
       window.location.href = "https://facebook.com/sammckaigconsulting"
       console.log('clicked FB')
     }} size="2rem" />
 
-    <FaGithubSquare onClick={() => {
+    <FaGithubSquare className="socialLink" onClick={() => {
       window.location.href = "https://github.com/bboysamuel"
 
     }} size="2rem" />
 
-    <FaImdb onClick={() => {
+    <FaImdb className="socialLink" onClick={() => {
       window.location.href = "https://www.imdb.com/name/nm6350143/"
 
     }} size="2rem" />
 
 
 
-    <FaLinkedin onClick={() => {
+    <FaLinkedin className="socialLink" onClick={() => {
       window.location.href = "https://www.linkedin.com/in/sammckaig/"
 
     }} size="2rem" />
 
 
 
-    <FaYoutubeSquare onClick={() => {
-      window.location.href = "https://twitter.com/samuelmckaig"
-      console.log('clicked FB')
+    <FaYoutubeSquare className="socialLink" onClick={() => {
+      window.location.href = "https://www.youtube.com/channel/UChppwzSZ7iHqNORZROxGC5w/about"
+
+    }} size="2rem" />
+
+    <FaTwitterSquare className="socialLink" onClick={() => {
+      window.location.href="https://twitter.com/samuelmckaig"
     }} size="2rem" />
 
 </Col>

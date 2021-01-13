@@ -38,8 +38,9 @@ function App() {
     {/* <MediaModule /> */}
 
     < Portfolio />
+    < ContactForm />
     <ContactReact />
-    {/* < ContactForm /> */}
+
     {/* < SocialContacts /> */}
     < Footer />
 
