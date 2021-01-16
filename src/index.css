@@ -20,16 +20,8 @@ code {
  */
 
 .safe {
-  /* padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem; */
-  /* margin: 2rem; */
   padding: 2rem;
 }
-/* body {
-  padding-top: 56px;
-} */
 
 .carousel-item {
   height: 85vh;
@@ -48,20 +40,12 @@ code {
   max-width: 100%;
 }
 
-/* .carousel-item-temp {
-  background-image: url('./mediaTwo/list-it-marketing-real-estate-sam.jpg');
-} */
-
 #featureTwo {
   text-align: right;
 }
 #bioId {
   margin-top: 1rem;
 }
-/*
-.sliderPic {
-  height: 100vh;
-} */
 
 a:link {
   color: rgb(141, 140, 140) !important;
@@ -71,23 +55,9 @@ a:visited {
   color: rgb(141, 140, 140) !important;
 }
 
-/* .btn .btn-primary {
-  background-color: green;
-  color: red;
-} */
-
 .fullWidth {
   width: 100%;
 }
-
-/* a a:visited .nav-link {
-  color: solid red;
-  background-color: green;
-} */
-
-/* * {
-  background-color: red;
-} */
 
 .mb-4 .btn {
   background-color: rgb(189, 189, 189);
@@ -108,5 +78,4 @@ html {
 
 #bioId {
   text-align: center;
-  /* font-family: Bold; */
 }

@@ -9,12 +9,10 @@ import MediaModule from "./MediaModule"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-
 const Portfolio = () => {
   useEffect( () => {
     Aos.init({duration: 3000})
   }, [])
-
 
 
   const allProjects = data
@@ -25,8 +23,6 @@ const Portfolio = () => {
   const handleShow = () => {
     setShow(true);
   }
-
-
 
   return (<>
         {/* <MediaModule /> */}
@@ -45,7 +41,6 @@ const Portfolio = () => {
                            <iframe width="100%" src={project.vidEmbed} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                            :
                <img onClick={handleShow} className="imgClick card-img-top" src={project.imageURL} alt=""></img>
-
                 }
                <div>
 
@@ -80,10 +75,7 @@ const Portfolio = () => {
     </div>
   </div>
 
-
-
   </>)
-
 
 }
 

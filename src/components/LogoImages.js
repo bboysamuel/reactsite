@@ -10,8 +10,6 @@ import Aos from "aos"
 import "aos/dist/aos.css";
 
 
-
-
 const LogoImages = () => {
   useEffect(() => {
     Aos.init({duration: 1500})

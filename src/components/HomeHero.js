@@ -21,7 +21,6 @@ const HomeHero = () => {
 
     </div>
 
-
 </div>
 }
 

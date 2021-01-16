@@ -10,37 +10,19 @@ import Row from 'react-bootstrap/Row'
 import {FaTwitterSquare, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaImdb, FaYoutubeSquare, FaVimeoSquare, FaMedium} from "react-icons/fa"
 import {MdCode} from "react-icons/md"
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { facebook-square } from '@fortawesome/free-solid-svg-icons'
-
 
 
 const SocialContacts = () => {
 
   return (<>
-  {/* <div>
-    <FaFacebookSquare size="4rem" />
-    <FaFacebookSquare size="4rem" />
-    <FaFacebookSquare size="4rem" />
-    <FaFacebookSquare size="4rem" />
-
-  </div> */}
 <div className="centerWrap" >
   <Container style={{color: "white"}} >
   <Row>
 <Col>
-    <FaFacebookSquare className="socialLink" onClick={() => {
+    {/* <FaFacebookSquare className="socialLink" onClick={() => {
       window.location.href = "https://facebook.com/sammckaigconsulting"
-      console.log('clicked FB')
-    }} size="2rem" />
+
+    }} size="2rem" /> */}
 
     <FaGithubSquare className="socialLink" onClick={() => {
       window.location.href = "https://github.com/bboysamuel"

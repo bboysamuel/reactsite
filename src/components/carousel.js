@@ -4,7 +4,6 @@ import React, {render, useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
 
-
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
