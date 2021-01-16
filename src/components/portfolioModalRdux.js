@@ -72,7 +72,7 @@ const Portfolio = () => {
         return( <>
           <div key={projectId} className="col-lg-4 col-sm-6 portfolio-item">
             <div className="card h-100">
-               <img onClick={handleShow} class="imgClick card-img-top" src={project.imageURL} alt=""></img>
+               <img onClick={handleShow} className="imgClick card-img-top" src={project.imageURL} alt=""></img>
                <div>
 
             {/* <MediaModule
@@ -96,7 +96,7 @@ const Portfolio = () => {
               <Modal.Title>{project.name} </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-            <iframe width="100%" src={project.vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" src={project.vidEmbed} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
             </Modal.Body>
             <Modal.Footer>

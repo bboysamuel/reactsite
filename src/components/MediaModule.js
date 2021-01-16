@@ -25,7 +25,7 @@ const allProjects = data
     </Modal.Header>
     <Modal.Body>
       <div>
-        <iframe width="100%" src={project.vidEmbed} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" src={project.vidEmbed} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
 
     </Modal.Body>

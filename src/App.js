@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './index.css' ;
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Footer from './components/footer';
 import ContactForm from './components/contactForm'

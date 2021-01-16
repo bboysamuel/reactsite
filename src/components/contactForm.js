@@ -4,10 +4,10 @@ import React, {useState} from 'react';
 
 
 const ContactForm = (props) => {
-    const {name, setName} = useState('')
-    const {email, setEmail} = useState('')
-    const {subject, setSubject} = useState('')
-    const {message, setMessage} = useState('')
+    // const {name, setName} = useState('')
+    // const {email, setEmail} = useState('')
+    // const {subject, setSubject} = useState('')
+    // const {message, setMessage} = useState('')
 
   return (<>
   <section className="mb-4 safe" id="contactTop">

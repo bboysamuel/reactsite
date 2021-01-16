@@ -1,26 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Home.css'
-import {
-  BrowserRouter as Router,
-  Link,
-} from 'react-router-dom'
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 const HomeHero = () => {
+  useEffect( () => {
+    Aos.init({duration: 3000})
+  })
   return <div id="home" className="homeHeroDiv">
-    <div className="hero-image">
-    <div className="hero-text">
-    <h1>Samuel McKaig</h1>
-    <h3>The Official Website For The Unofficial Genius</h3>
-    </div>
-    </div>
 
-    {/* NOTE typewritter effect */}
-    {/* <div className="typewriter">
-<p> "If (!bot)
-Welcome "
-</p>
-    </div> */}
-    {/* <button onClick="window.location.href='/routines'">Get Started</button> */}
+    <div className="hero-image">
+
+
+      <div className="hero-text">
+
+        <h1 data-aos="fade-down" >Samuel McKaig</h1>
+        <h3 data-aos="fade-in" >The Official Website</h3>
+
+      </div>
+
+    </div>
 
 
 </div>

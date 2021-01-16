@@ -3,26 +3,62 @@ import Form from 'react-bootstrap/Form'
 import Button from "react-bootstrap/Button"
 import Col from 'react-bootstrap/Col'
 import {Link} from "react-router-dom"
+import axios from "axios"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const ContactReact = () => {
+  useEffect(() => {
+    Aos.init({duration: 2500})
+  }, [])
 
   const [name, setName ] = useState('')
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
   const  [messageBody, setMessageBody] = useState('')
-  const  [agreeTOS, setAgreeTOS]  = useState(true)
+  // const  [agreeTOS, setAgreeTOS]  = useState(true)
+  // const [ state, setState] = useState()
 
-  const handleEmail = () => {
+  const resetForm = async () => {
 
 
+        setName('')
+        setEmail('')
+        setSubject('')
+        setMessageBody('')
+  }
 
-    console('email submitted')
+  const handleEmail = async (event) => {
+    event.preventDefault()
+
+    try {
+
+      const data = {
+        name,
+        email,
+        subject,
+        messageBody,
+
+      }
+
+      const response = await axios.post('/api/emailForm', data)
+
+      // console.log('response fired', response)
+
+      if(response) {
+        resetForm()
+      }
+
+    } catch (error) {
+      console.error(error)
+    }
+
   }
 
 
   return(<>
-  <div className="contactWrapper">
-<Form>
+  <div data-aos="fade-up" className="contactWrapper">
+<Form onSubmit={handleEmail}>
 <Form.Group  controlId="formGridAddress1">
     <Form.Label>Name</Form.Label>
     <Form.Control
@@ -63,18 +99,6 @@ const ContactReact = () => {
     />
   </Form.Group>
 
-  {/* <Form.Row>
-    <Form.Group as={Col} controlId="formGridEmail">
-      <Form.Label>Email</Form.Label>
-      <Form.Control type="email" placeholder="Enter email" />
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Password</Form.Label>
-      <Form.Control type="password" placeholder="Password" />
-    </Form.Group>
-  </Form.Row> */}
-
 
   <Form.Group controlId="exampleForm.ControlTextarea1">
     <Form.Label>Message</Form.Label>
@@ -92,14 +116,10 @@ const ContactReact = () => {
   </Form.Group>
 
   <Form.Group id="formGridCheckbox">
-    <Form.Check type="checkbox"
-    label="By submitting I agree to the site's terms of service & privacy policy" />
-
+    <p style={{fontSize: ".75rem"}}> By submitting you agree to the terms of service & privacy policy </p>
   </Form.Group>
 
   <Button onClick={ (e) => {
-    e.preventDefault()
-      console.log('test submit click')
     }} variant="primary" type="submit">
     Submit
   </Button>

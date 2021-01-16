@@ -361,7 +361,7 @@ const Portfolio = () => {
             <div className="card h-100">
             {/* {project.vidEmbed} */}
              {/* <a href="#"> */}
-               <img onClick={handleShow} class="imgClick card-img-top" src={project.imageURL} alt=""></img>
+               <img onClick={handleShow} className="imgClick card-img-top" src={project.imageURL} alt=""></img>
                {/* </a> */}
                {/* <Button variant="primary" onClick={handleShow}>
         Launch demo modal
