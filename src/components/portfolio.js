@@ -14,7 +14,6 @@ const Portfolio = () => {
     Aos.init({duration: 3000})
   }, [])
 
-
   const allProjects = data
 
   const [show, setShow] = useState(false);
@@ -31,9 +30,9 @@ const Portfolio = () => {
     <div className="row">
 
       {allProjects && allProjects.map((project) => {
-        console.log('project', project.name)
+
         const projectId = project.id;
-        console.log('projectId', projectId)
+
         return( <>
           <div key={projectId} className="col-lg-4 col-sm-6 portfolio-item">
             <div data-aos="fade-up" className="card h-100">

@@ -9,9 +9,9 @@ const FeatureOne = (props) => {
     Aos.init({duration: 1000})
   }, [])
 
-  return <div className="row safe" id="aboutTop">
+  return <div className="row " id="aboutTop">
   <div id="bioId" className="col-lg-6">
-    <p className="my-4 bioTitle">Samuel McKaig</p>
+    <p className="my-4 safe bioTitle">Samuel McKaig</p>
 
     {/* <h2>Creator | Consultant</h2> */}
     <p>The American creator and consultant known for his work in entertainment, real estate, and marketing.</p>

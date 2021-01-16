@@ -26,9 +26,10 @@
     "desc": "A Smart Scale that links to your phone and Fitbit available on Amazon.com and Bed Bath & Beyond." ,
     "imageURL": "media/inevifit.jpg"  ,
     "link": "https://www.inevifit.com" ,
-    "vidEmbed": "https://www.youtube.com/embed/GNdpCMCd_xw" ,
+    "vidEmbed": "https://www.youtube.com/embed/83zxNjz6LRI" ,
     "vidURL": null
   },
+
 
   {
     "id": 4 ,
@@ -57,6 +58,16 @@
     "imageURL": "media/inevifit.jpg"  ,
     "link": "https://www.partnersinhousingsolutions.org/santa-barbara-homeless-shelters-housing-board" ,
     "vidEmbed": "https://www.youtube.com/embed/cwT4BAZa0HE" ,
+    "vidURL": null
+  },
+
+  {
+    "id": 7 ,
+    "name": "More Upon Request" ,
+    "desc": "Contact us to learn more." ,
+    "imageURL": "media/stunt_sport_image.jpg"  ,
+    "link": "/#contactTop" ,
+    "vidEmbed": null ,
     "vidURL": null
   }
 

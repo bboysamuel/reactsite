@@ -36,6 +36,12 @@ code {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.portfolio {
+  padding: 3rem;
+  background-color: rgb(241, 241, 250);
+}
+
 .profileImage {
   max-width: 100%;
 }

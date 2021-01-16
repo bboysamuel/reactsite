@@ -74,8 +74,6 @@ const ContactReact = () => {
       type="text"
       value={name}
      onChange={ (e) => {
-      // e.preventDefault()
-      console.log(e.target.value)
       setName(e.target.value)
 
 
@@ -89,7 +87,7 @@ const ContactReact = () => {
     value={email}
     placeholder="Your Email"
     onChange={ (e) => {
-      console.log(e.target.value)
+
       setEmail(e.target.value)
     }}
     />
@@ -102,7 +100,7 @@ const ContactReact = () => {
     type="text"
     value={subject}
     onChange={ (e) => {
-      console.log(e.target.value)
+      // console.log(e.target.value)
       setSubject(e.target.value)
     }}
     />
@@ -118,14 +116,13 @@ const ContactReact = () => {
     placeholder="Your message"
     rows={3}
     onChange={ (e) => {
-      console.log(e.target.value)
       setMessageBody(e.target.value)
     }}
     />
   </Form.Group>
 
   <Form.Group id="formGridCheckbox">
-    <p style={{fontSize: ".75rem"}}> By submitting you agree to the terms of service & privacy policy </p>
+    <p style={{fontSize: ".75rem"}}> By submitting you agree to the privacy policy. </p>
   </Form.Group>
 
   <Button onClick={ (e) => {

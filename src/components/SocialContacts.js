@@ -8,7 +8,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 import {FaTwitterSquare, FaFacebookSquare, FaLinkedin, FaGithubSquare, FaImdb, FaYoutubeSquare, FaVimeoSquare, FaMedium} from "react-icons/fa"
-import {MdCode} from "react-icons/md"
 
 
 

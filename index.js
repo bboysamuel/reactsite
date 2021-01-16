@@ -40,7 +40,7 @@ server.get('/', (req, res, next) => {
 
 server.post('/api/emailForm', (req, res, next) => {
   let data = req.body
-  console.log('data in server', data)
+  // console.log('data in server', data)
 
   let smtpTransport = nodemailer.createTransport({
     name:'mail.samuelmckaig.com' ,
@@ -68,8 +68,6 @@ server.post('/api/emailForm', (req, res, next) => {
           <p> ${data.message} </p>
     `
   };
-  console.log("Message sent: %s", mailOptions.messageId);
-
 
   smtpTransport.sendMail(mailOptions, (error, res) => {
     if (error) {
