@@ -16,6 +16,10 @@ html {
   background-size: cover;
 }
 
+/* * {
+  border: 2px solid black;
+} */
+
 .hero-text {
   text-align: center;
   font-size: 1.5rem;
@@ -60,9 +64,10 @@ ul {
 }
 
 .logoWrapper {
-  display: grid;
-  align-items: bottom;
-  padding: 3rem;
+  /* display: grid;
+  align-items: bottom; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: rgb(241, 241, 250);
 }
 
@@ -76,9 +81,9 @@ ul {
   text-align: center;
 }
 
-.centerWrap .colItem {
+/* .centerWrap .colItem {
   padding: 0.5rem;
-}
+} */
 
 .socialLink {
   cursor: pointer;

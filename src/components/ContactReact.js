@@ -61,7 +61,7 @@ const ContactReact = () => {
 
 <h2 className="h1-responsive font-weight-bold text-center my-4">Contact</h2>
 
-<p className="text-center w-responsive mx-auto mb-5">Got questions? Great, Sam's got answers. They may not be correct answers, but he tries. </p>
+<p className="text-center w-responsive mx-auto mb-5">Got questions? Great, Sam's got answers. They may not be the answers you seek, but he tries. </p>
 
 
 </section>

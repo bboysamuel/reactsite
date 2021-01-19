@@ -9,10 +9,12 @@ import {
 
 const NavTop = (props) => {
 
-  return (<Navbar collapseOnSelect expand="lg" sticky="top" style={{backgroundColor: "black"}}
+  return (<>
+  <div>
+  <Navbar collapseOnSelect expand="lg" sticky="top" style={{backgroundColor: "black"}}
  variant="dark"
   >
-  <Navbar.Brand href="/">SAMUEL MCKAIG | official website </Navbar.Brand>
+  <Navbar.Brand href="/">SAMUEL MCKAIG  </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
@@ -31,7 +33,9 @@ const NavTop = (props) => {
       </NavDropdown> */}
     </Nav>
   </Navbar.Collapse>
-</Navbar>)
+</Navbar>
+</div>
+</>)
 
 }
 

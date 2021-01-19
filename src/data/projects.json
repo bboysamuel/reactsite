@@ -63,8 +63,38 @@
 
   {
     "id": 7 ,
+    "name": "The Santa Barbara Spa" ,
+    "desc": "The premier spa in Santa Barbara California." ,
+    "imageURL": "media/santa-barbara-spa.jpg"  ,
+    "link": "https://TheSantaBarbaraSpa.com" ,
+    "vidEmbed": null ,
+    "vidURL": null
+  },
+
+  {
+    "id": 8 ,
+    "name": "The XCollar" ,
+    "desc": "The Advanced Airway Management & Cervical Splinting System. Developed by Emegear." ,
+    "imageURL": null  ,
+    "link": "https://www.xcollar.com/" ,
+    "vidEmbed": "https://www.youtube.com/embed/toTALyA5j-0" ,
+    "vidURL": null
+  },
+
+  {
+    "id": 9 ,
+    "name": "Virtual Velocity" ,
+    "desc": "The full-stack CRUD application built in React.js, PostgreSQL, & Javascript." ,
+    "imageURL": "media/full-stack-web-application-coding.jpg"  ,
+    "link": "https://github.com/2006-cpu/virtual-velocity" ,
+    "vidEmbed": null ,
+    "vidURL": null
+  },
+
+  {
+    "id": 10 ,
     "name": "More Upon Request" ,
-    "desc": "Contact us to learn more." ,
+    "desc": "More upon request." ,
     "imageURL": "media/stunt_sport_image.jpg"  ,
     "link": "/#contactTop" ,
     "vidEmbed": null ,

@@ -15,7 +15,7 @@ import ContactReact from "./components/ContactReact"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App safeApp">
     < NavTop />
     <HomeHero />
     <LogoImages />

@@ -18,7 +18,7 @@ const LogoImages = () => {
   return (<>
   <div className="logoWrapper">
   <Container className="justify-content-md-center">
-  <Row data-aos="fade-right" className="justify-content-md-center logoRow">
+  <Row data-aos="fade-up" className="justify-content-md-center logoRow">
     <Col className="logoCols" xs={3} md={2} lg={2} xl={2}>
       <Image className="logoImg" src="media/logos/reactjs-javascript-react-js-2.png" thumbnail onClick={() => {
       window.location.href = "https://reactjs.org/"
@@ -41,7 +41,7 @@ const LogoImages = () => {
     </Col>
     </Row>
 
-    <Row data-aos="fade-left" className="justify-content-md-center logoRow">
+    <Row data-aos="fade-up" className="justify-content-md-center logoRow">
 
     <Col xs={3} md={2} lg={2} xl={2}>
       <Image className="logoImg" src="media/logos/javascript-software-developer-web-apps.png" thumbnail onClick={ () => {
@@ -64,7 +64,7 @@ const LogoImages = () => {
     </Col>
   </Row>
 
-  <Row data-aos="fade-right" className="justify-content-md-center logoRow">
+  <Row data-aos="fade-up" className="justify-content-md-center logoRow">
 
 <Col xs={3} md={2} lg={2} xl={2}>
   <Image className="logoImg" src="media/logos/moz-seo-search-engine-optimization.png" thumbnail onClick={ () => {

@@ -12,7 +12,8 @@
 }
 
 #textSlide .quotesCarouselClass {
-  padding: 40px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   max-height: 200px;
   max-width: 400px;
   align-items: center;

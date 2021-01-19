@@ -71,9 +71,11 @@ server.post('/api/emailForm', (req, res, next) => {
 
   smtpTransport.sendMail(mailOptions, (error, res) => {
     if (error) {
+      // console.log('error', error)
       res.send(error)
     }
     else {
+      // console.log('Message sent: ' + res.response)
       res.send("successful")
     }
   })
@@ -92,7 +94,6 @@ server.use( (err, req, res, next) => {
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, async () => {
   console.log(`Server is running on ${PORT}`)
-
 
 })
 

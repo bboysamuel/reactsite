@@ -20,7 +20,8 @@ code {
  */
 
 .safe {
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .carousel-item {
@@ -38,9 +39,14 @@ code {
 }
 
 .portfolio {
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: rgb(241, 241, 250);
 }
+
+/* .card {
+  margin: 1rem;
+} */
 
 .profileImage {
   max-width: 100%;
