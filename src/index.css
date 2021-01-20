@@ -56,6 +56,7 @@ code {
   text-align: right;
 }
 #bioId {
+  text-align: center;
   margin-top: 1rem;
 }
 
@@ -88,6 +89,6 @@ html {
   font-size: 4rem;
 }
 
-#bioId {
-  text-align: center;
+.row {
+  max-width: 100%;
 }

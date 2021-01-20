@@ -9,7 +9,8 @@ const FeatureOne = (props) => {
     Aos.init({duration: 1000})
   }, [])
 
-  return <div className="row " id="aboutTop">
+  return (<>
+  <div className="row " id="aboutTop">
   <div id="bioId" className="col-lg-6">
     <p className="my-4 safe bioTitle">Samuel McKaig</p>
 
@@ -26,6 +27,7 @@ const FeatureOne = (props) => {
     <img className="profileImage" src="media/sam-linked-in-profile.jpeg" alt=""></img>
   </div>
 </div>
+</>)
 }
 
 export default FeatureOne;

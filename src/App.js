@@ -19,9 +19,12 @@ function App() {
     < NavTop />
     <HomeHero />
     <LogoImages />
+      {/* <MediaModule /> */}
+
     < FeatureOne />
-    {/* <MediaModule /> */}
+
     < Portfolio />
+
     {/* < ContactForm /> */}
     <ContactReact />
     {/* < SocialContacts /> */}
