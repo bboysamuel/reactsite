@@ -11,7 +11,7 @@ const NavTop = (props) => {
 
   return (<>
   <div>
-  <Navbar collapseOnSelect expand="lg" sticky="top" style={{backgroundColor: "black"}}
+  <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: "black"}}
  variant="dark"
   >
   <Navbar.Brand href="/">SAMUEL MCKAIG  </Navbar.Brand>

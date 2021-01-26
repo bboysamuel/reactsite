@@ -24,7 +24,7 @@ const FeatureOne = (props) => {
 
   </div>
   <div data-aos="fade-in" className="col-lg-6">
-    <img className="profileImage" src="media/sam-linked-in-profile.jpeg" alt=""></img>
+    <img className="profileImage" src="media/sam-mckaig-official-website.jpeg" alt=" Sam McKaig Santa Barbara real estate"></img>
   </div>
 </div>
 </>)

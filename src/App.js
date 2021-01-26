@@ -11,23 +11,28 @@ import HomeHero from './components/HomeHero'
 import LogoImages from "./components/LogoImages"
 // import SocialContacts from "./components/SocialContacts"
 import ContactReact from "./components/ContactReact"
+import Privacy from "./components/PrivacyPolicy"
 // import { Helmet } from "react-helmet"
+import {
+  Route
+} from "react-router-dom"
 
 function App() {
   return (
     <div className="App safeApp">
     < NavTop />
+    < Route exact path="/">
     <HomeHero />
     <LogoImages />
       {/* <MediaModule /> */}
-
     < FeatureOne />
-
     < Portfolio />
-
-    {/* < ContactForm /> */}
     <ContactReact />
-    {/* < SocialContacts /> */}
+    </Route>
+
+    <Route exact path="/privacy">
+      <Privacy />
+    </Route>
     < Footer />
     </div>
   );

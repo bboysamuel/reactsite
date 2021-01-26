@@ -93,9 +93,29 @@
 
   {
     "id": 10 ,
-    "name": "More Upon Request" ,
+    "name": "Small Business Trends" ,
+    "desc": "SmallBizTrends.com interviews Sam McKaig for feature spotlight" ,
+    "imageURL": "media/santa-barbara-real-estate.jpg"  ,
+    "link": "https://smallbiztrends.com/2019/12/real-estate-industry.html" ,
+    "vidEmbed": null ,
+    "vidURL": null
+  },
+
+  {
+    "id": 11 ,
+    "name": "The Independent" ,
+    "desc": "An Interview with Director Samuel McKaig by Independent.com" ,
+    "imageURL": "media/stunt_sport_movie_cover.jpg"  ,
+    "link": "https://www.independent.com/2012/02/03/stunt-sport/" ,
+    "vidEmbed": null ,
+    "vidURL": null
+  },
+
+  {
+    "id": 12 ,
+    "name": "And more..." ,
     "desc": "More upon request." ,
-    "imageURL": "media/stunt_sport_image.jpg"  ,
+    "imageURL": "media/sam-mckaig-official-website.jpg"  ,
     "link": "/#contactTop" ,
     "vidEmbed": null ,
     "vidURL": null
