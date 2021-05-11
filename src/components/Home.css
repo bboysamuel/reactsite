@@ -90,10 +90,10 @@ ul {
 }
 
 @media only screen and (max-width: 480px) {
-  .hero-text h1 {
+  #heroTextHeader {
     font-size: 2rem;
   }
-  .hero-text h3 {
+  #heroTextSecondary {
     font-size: 1.5rem;
   }
 }

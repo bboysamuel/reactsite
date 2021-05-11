@@ -9,7 +9,7 @@ import "aos/dist/aos.css"
 
 const ContactReact = () => {
   useEffect(() => {
-    Aos.init({duration: 2500})
+    Aos.init({duration: 1000})
   }, [])
 
   const [name, setName ] = useState('')
@@ -57,6 +57,7 @@ const ContactReact = () => {
 
 
   return(<>
+  <div >
     <section className="mb-4 safe" id="contactTop">
 
 <h2 className="h1-responsive font-weight-bold text-center my-4">Contact</h2>
@@ -68,7 +69,7 @@ const ContactReact = () => {
 
   <div data-aos="fade-up" className="contactWrapper">
 <Form onSubmit={handleEmail}>
-<Form.Group  controlId="formGridAddress1">
+<Form.Group  controlId="formGridAddress1" >
     <Form.Label>Name</Form.Label>
     <Form.Control
       type="text"
@@ -130,6 +131,7 @@ const ContactReact = () => {
     Submit
   </Button>
 </Form>
+</div>
 </div>
   </>)
 }

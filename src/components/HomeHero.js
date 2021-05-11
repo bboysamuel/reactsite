@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 const HomeHero = () => {
   useEffect( () => {
-    Aos.init({duration: 3000})
+    Aos.init({duration: 1000})
   })
   return <div id="home" className="homeHeroDiv">
 
@@ -14,8 +14,8 @@ const HomeHero = () => {
 
       <div className="hero-text">
 
-        <h1 data-aos="fade-down" >Samuel McKaig</h1>
-        <h3 data-aos="fade-in" >The Official Website</h3>
+        <h1 id="heroTextHeader" data-aos="fade-down" >Samuel McKaig</h1>
+        <h3 id="heroTextSecondary" data-aos="fade-up" >The Official Website</h3>
 
       </div>
 

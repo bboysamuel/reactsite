@@ -24,7 +24,9 @@ const NavTop = (props) => {
     <Nav>
       <Nav.Link href="#home"> HOME</Nav.Link>
     <Nav.Link href="#aboutTop">ABOUT</Nav.Link>
+    <Nav.Link href="https://SantaBarbaraMontecito.com">REAL ESTATE</Nav.Link>
       <Nav.Link href="#projectsTop">PROJECTS</Nav.Link>
+      {/* <Nav.Link href="#projectsTop">BOOKS</Nav.Link> */}
       <Nav.Link href="#contactTop">CONTACT</Nav.Link>
       {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

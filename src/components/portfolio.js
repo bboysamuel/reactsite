@@ -27,7 +27,7 @@ const Portfolio = () => {
         {/* <MediaModule /> */}
 
   <div id="projectsTop" className="portfolio safe">
-    <div className="row">
+    <div className="row" >
 
       {allProjects && allProjects.map((project) => {
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
 
         return( <>
           <div key={projectId} className="col-lg-4 col-sm-6 portfolio-item">
-            <div data-aos="fade-up" className="card h-100">
+            <div style={{marginLeft: "2rem"}} data-aos="fade-up" className="card h-100">
                { project.vidEmbed ?
                            <iframe width="100%" src={project.vidEmbed} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                            :
@@ -43,7 +43,7 @@ const Portfolio = () => {
                 }
                <div>
 
-        <div>
+        {/* <div>
             <Modal show={show} onHide={handleClose} width="720px" height="460px">
             <Modal.Header closeButton>
               <Modal.Title>{project.name} </Modal.Title>
@@ -56,7 +56,7 @@ const Portfolio = () => {
               <p> this is a really cool project</p>
             </Modal.Footer>
           </Modal>
-        </div>
+        </div> */}
 
                </div>
 
